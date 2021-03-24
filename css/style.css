@@ -20,8 +20,8 @@ body {
 }
 .float-left {
     float: left;
-    width: 100%;
-    margin: 15px auto;
+    /* width: 100%;
+    margin: 15px auto; */
 }
 
 /* sezione top */
@@ -42,13 +42,15 @@ header {
 /* sezione navigazione  */
 #logo {
     width: 15%;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 .nav-left {
+    margin: 10px 0;
     width: 50%;
     text-align: left;
 }
 .nav-right {
+    margin: 10px 0;
     width: 35%;
     text-align: right;
 }
@@ -59,7 +61,7 @@ ul li {
     font-size: 12px; 
     text-transform: uppercase;
 }
-a { 
+a:not(#link-alone) { 
     margin: 0 10px;
     text-decoration: none;
     color: white;
@@ -130,7 +132,7 @@ h1 {
     font-size: 20px;
 }
 
-/* sezione TRE column del MAIN  */
+/* sezione TRE colonne del MAIN  */
 #contenitor-3column {
     background-color: white;
     /* height: 400px; */
@@ -169,34 +171,31 @@ h1 {
     margin: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* sezione DUE column del MAIN  */
+/* sezione 2 colonne del main  */
 #contenitor-2column {
-    background-color: orange;
-    height: 150px;
+    background-color: white;
+    margin: 20px auto;
 }
+.column2 {
+    width: 40%;
+    margin: 20px 5%;
+}
+.column2 h2 {
+    margin-right: 25%;
+    font-size: 25px;
+}
+.column2 p {
+    margin: 10px 25% 20px 0;
+    color: #9E9E9E;
+    font-weight: bold;
+}
+
+#link-alone {
+    font-size: 14px;
+}
+
+
+
 
 
 /* footer  */
