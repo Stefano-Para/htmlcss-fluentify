@@ -125,8 +125,36 @@ h1 {
     font-size: 20px;
 }
 
-/* sezione column del MAIN  */
-#column {
+/* sezione TRE column del MAIN  */
+#contenitor-3column {
     background-color: white;
+    height: 150px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
 
+#one {
+    background-color: red;
+}
+#two {
+    background-color: blue;
+}
+#three {
+    background-color: blueviolet;
+}
+
+/* sezione DUE column del MAIN  */
+#contenitor-2column {
+    background-color: orange;
+    height: 150px;
+}
+
+
+/* footer  */
+footer {
+    background: lightgrey;
+    height: 150px;
 }
