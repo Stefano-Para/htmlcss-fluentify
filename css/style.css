@@ -42,6 +42,7 @@ header {
 /* sezione navigazione  */
 #logo {
     width: 15%;
+    margin: 10px 0;
 }
 .nav-left {
     width: 50%;
@@ -55,13 +56,14 @@ header {
 ul li {
     display: inline-block; 
     list-style-type: none;
-    font-size: 13px; 
+    font-size: 12px; 
     text-transform: uppercase;
 }
 a { 
     margin: 0 10px;
     text-decoration: none;
-    color: white;  
+    color: white;
+    /* font-weight: 600;   */
 }
 /* bottoni */
 .btn {
@@ -98,6 +100,7 @@ h1 {
     color: white;
     letter-spacing: 1px;
     margin: 20px 0;
+    line-height: 60px;
 }
 .jumbotron a {
     text-transform: uppercase;
@@ -130,38 +133,41 @@ h1 {
 /* sezione TRE column del MAIN  */
 #contenitor-3column {
     background-color: white;
-    height: 400px;
+    /* height: 400px; */
     margin: 50px auto;
 }
-
-
 .column3 {
     position: relative;
     float: left;
-    width: 33.33%;
+    width: 30%;
     text-align: center;
-    margin: 40px 0;
-}
-
-#one {
-    /* background-color: red; */
+    margin: 0 1.6%;
 }
 .column3 img {
     height: 150px;
-}
-#two {
-    /* background-color: blue;  */
-}
-#three {
-    /* background-color: blueviolet; */
+    margin-bottom: 20px;
 }
 .column3 h2 {
-    color:#7CBB02;
-    border-bottom: 1px solid;
+    font-size: 28px;
+    color: #7CBB02;
+    margin-bottom: 20px;
+}
+.divisorio {
+    border-top: 1px solid grey;
+    width: 20%;
+    margin: 0 auto;
+}
+.column3 p {
+    margin-top: 20px;
+    color: #9E9E9E;
+    font-weight: bold;
 }
 
 /* riga divisoria  */
-#divisorio
+#linea {
+    border-top: 1px solid #9E9E9E;
+    margin: 20px;
+}
 
 
 
