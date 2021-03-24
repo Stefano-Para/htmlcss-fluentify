@@ -131,24 +131,22 @@ h1 {
 #contenitor-3column {
     background-color: white;
     height: 400px;
+    margin: 50px auto;
 }
-#contenitor-3column:after {
-    content: "";
-    clear: both;
-    display: table;
-    overflow: auto;
-}
-.column {
+
+
+.column3 {
     position: relative;
     float: left;
     width: 33.33%;
     text-align: center;
+    margin: 40px 0;
 }
 
 #one {
     /* background-color: red; */
 }
-img.float-left {
+.column3 img {
     height: 150px;
 }
 #two {
@@ -157,15 +155,15 @@ img.float-left {
 #three {
     /* background-color: blueviolet; */
 }
-.column h2 {
+.column3 h2 {
     color:#7CBB02;
     border-bottom: 1px solid;
-    
 }
 
-hr {
-    margin: 20px;
-}
+/* riga divisoria  */
+#divisorio
+
+
 
 
 
