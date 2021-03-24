@@ -19,42 +19,68 @@ body {
 /* sezione top */
 .container-top {
     width: 80%;
-    height: 100px;
+    height: 50px;
     margin: 0px auto;
     padding: 10px 0;
+    line-height: 50px;
+    vertical-align: middle;
 }
 header {
     text-transform: uppercase;
     background-color: #0C325A;
     height: 400px;
 }
-
+/* sezione navigazione  */
 #logo {
-    width: 20%;
+    width: 15%;
 }
 .nav-left {
     width: 50%;
     text-align: left;
-
 }
 .nav-right {
-    width: 30%;
+    width: 35%;
     text-align: right;
 }
-
-
-
-
-
-ul {
-    list-style-type: none;
-}
-
-li { 
+/* listing item > links */
+ul li { 
     display: inline-block; 
+    list-style-type: none;
+    font-size: 13px; 
 }
-
 li a {
+    margin: 0 10px;
     text-decoration: none;
     color: white;  
 }
+
+/* bottoni */
+.btn {
+    border: 1px solid;
+    border-radius: 5px;
+}
+.big-btn {
+    padding: 20px 30px;
+}
+
+/* bottoni header  */
+.small-btn {
+    padding: 10px 20px;
+}
+.green-btn {
+    background-color: #7CBB02;
+    border-color: #7CBB02;
+}
+.green-btn:hover {
+    background-color: white;
+    color: #7CBB02;
+} 
+}
+.white-btn:hover {
+    background-color: white;
+    color: #0C325A;
+}
+/* sezione jumbotron */
+
+
+
