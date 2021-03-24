@@ -20,6 +20,8 @@ body {
 }
 .float-left {
     float: left;
+    width: 100%;
+    margin: 15px auto;
 }
 
 /* sezione top */
@@ -128,23 +130,63 @@ h1 {
 /* sezione TRE column del MAIN  */
 #contenitor-3column {
     background-color: white;
-    height: 150px;
+    height: 400px;
+}
+#contenitor-3column:after {
+    content: "";
+    clear: both;
+    display: table;
+    overflow: auto;
 }
 .column {
+    position: relative;
     float: left;
     width: 33.33%;
     text-align: center;
 }
 
 #one {
-    background-color: red;
+    /* background-color: red; */
+}
+img.float-left {
+    height: 150px;
 }
 #two {
-    background-color: blue;
+    /* background-color: blue;  */
 }
 #three {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
+.column h2 {
+    color:#7CBB02;
+    border-bottom: 1px solid;
+    
+}
+
+hr {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* sezione DUE column del MAIN  */
 #contenitor-2column {
