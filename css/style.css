@@ -26,6 +26,7 @@ body {
 .head {
     padding: 10px 0;
     line-height: 40px;
+    height: 40px;
     vertical-align: middle;
 }
 header {
@@ -90,15 +91,42 @@ a {
 }
 
 /* sezione jumbotron */
-.text-jbt {
-    height: 400px;
-}
 h1 {
+    font-size: 50px;
     color: white;
     letter-spacing: 1px;
+    margin: 20px 0;
 }
-.jumbotron > a {
-    display: block;
+.jumbotron a {
+    text-transform: uppercase;
+    display: inline-block;
+}
+.text-jbt {
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
+/* sezione top del MAIN */
+.top {
+    background-color: lightgrey;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+.top h2 {
+    font-size: 25px;
+    margin: 10px;
+}
+.top p {
+    font-weight: bold;
+    color: #9E9E9E;
+    font-size: 20px;
+}
 
+/* sezione column del MAIN  */
+#column {
+    background-color: white;
+
+}
