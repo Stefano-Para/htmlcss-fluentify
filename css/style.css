@@ -189,17 +189,16 @@ h1 {
     color: #9E9E9E;
     font-weight: bold;
 }
-
 #link-alone {
     font-size: 14px;
 }
 
-
-
-
-
 /* footer  */
 footer {
+    display: inline-block;
+    line-height: 150px;
     background: lightgrey;
     height: 150px;
+    width: 100%;
 }
+
