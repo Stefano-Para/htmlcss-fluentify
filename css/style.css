@@ -61,7 +61,8 @@ ul li {
     font-size: 12px; 
     text-transform: uppercase;
 }
-a:not(#link-alone) { 
+header a,
+footer a { 
     margin: 0 10px;
     text-decoration: none;
     color: white;
@@ -195,10 +196,39 @@ h1 {
 
 /* footer  */
 footer {
+    position: relative;
     display: inline-block;
-    line-height: 150px;
     background: lightgrey;
     height: 150px;
     width: 100%;
+    font-size: 20px;
+}
+footer h2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+}
+.compilazione {
+    display: inline-block;
+    font-weight: bold;
+    color: #9E9E9E;
+    text-align: right;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%)
+}
+#select {
+    position: relative;
+    padding: 0 60px 0 0px;
+    margin: 0 20px;
+    border-bottom: solid 1px;
+}
+#marker {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: right;
 }
 
