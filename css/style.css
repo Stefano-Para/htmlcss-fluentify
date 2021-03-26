@@ -7,7 +7,19 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-
+.helpbutton {
+    position: fixed;
+    right: 16%;
+    bottom: 0;
+    border: 1px 1px 0 1px solid black;
+    padding: 12px 10px 10px; 
+    border-radius: 10%;
+    background-color: #7CBB02;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    z-index: 2;
+}
 .centered {
     width: 80%;
     margin: 0 auto;
@@ -39,6 +51,7 @@ header {
     background-repeat: no-repeat;
     background-position: 115% 110%;
 }
+
 /* sezione navigazione  */
 #logo {
     width: 15%;
